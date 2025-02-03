@@ -1,0 +1,29 @@
+{
+  "name": "marmara-server",
+  "version": "1.0.0",
+  "description": "This is the server of Marmara Gold Trading LLC. website.",
+  "main": "index.server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.server.js"
+  },
+  "keywords": [
+    "marmara",
+    "gold",
+    "commodity"
+  ],
+  "author": "Faysal Jamil Nadim",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
